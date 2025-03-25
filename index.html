@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Trusted Gym Prtner</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <ul>
+        <li><a href="#">Our Mission</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </header>
+    <br />
+    <!-- Main Section -->
+    <main>
+      <h3>Who We Are</h3>
+      <p>
+        Join our high-energy group classes led by certified instructors. From
+        strength training to yoga, Pilates, and HIIT, we have a wide range of
+        classes that cater to all fitness levels. Come sweat it out in a fun and
+        supportive environment. <br />Get one-on-one attention with our
+        experienced personal trainers. We'll create a customized workout plan
+        based on your specific needs and fitness goals, ensuring you see results
+        quickly and safely. <br />Our gym is fully equipped with the latest in
+        fitness technology. From free weights and cardio machines to resistance
+        training and functional workout areas, we have everything you need for a
+        complete and effective workout. <br />
+        We offer a variety of membership options to suit your lifestyle. Whether
+        you are looking for a short-term pass or a long-term commitment, we have
+        got a plan for you. Enjoy access to all gym areas, classes, and
+        amenities.
+      </p>
+      <h3>What we offer</h3>
+      <p>We offer a variety of trainings, which include;</p>
+      <!-- Ordered List -->
+      <ol type="i">
+        <li>Yoga</li>
+        <li>Zumba</li>
+        <li>Strength Training</li>
+        <li>Cardio Training</li>
+        <li>Functional Training</li>
+        <li>Group Fitness</li>
+        <li>Mind-Body Exercise</li>
+        <li>Personal Training Programs</li>
+      </ol>
+      <br />
+
+      <!-- External Image -->
+      <img
+        src="https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Personal Trainer"
+      />
+
+      <!-- Table -->
+      <h1 style="text-align: center">Contact List</h1>
+
+      <table border="1" width="100%">
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>123 Main St, Nairobi, Kenya</td>
+          <td>+254712345678</td>
+          <td>john.doe@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>456 Park Ave, Mombasa, Kenya</td>
+          <td>+254723456789</td>
+          <td>jane.smith@example.com</td>
+        </tr>
+        <tr>
+          <td>Michael Brown</td>
+          <td>789 Sunset Blvd, Kisumu, Kenya</td>
+          <td>+254734567890</td>
+          <td>michael.brown@example.com</td>
+        </tr>
+        <tr>
+          <td>Emily Davis</td>
+          <td>101 Maple Rd, Nakuru, Kenya</td>
+          <td>+254745678901</td>
+          <td>emily.davis@example.com</td>
+        </tr>
+        <tr>
+          <td>Paul Johnson</td>
+          <td>202 Oak St, Eldoret, Kenya</td>
+          <td>+254756789012</td>
+          <td>paul.johnson@example.com</td>
+        </tr>
+      </table>
+      <br />
+      <!-- Registration Form -->
+      <h3>Registration Form</h3>
+      <form action="">
+        <label for="full_name">Full Name:</label>
+        <input
+          type="text"
+          name="full_name"
+          required
+          placeholder="Full Name"
+          minlength="5"
+          maxlength="20"
+        />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Your Email"
+          minlength="6"
+        />
+        <br /><br />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          minlength="8"
+        />
+        <br /><br />
+        <label for="confirm_password">Confirm Password</label>
+        <input
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+          required
+          minlength="8"
+        />
+        <br /><br />
+        <label for="dob">Date of Birth:</label><br />
+        <input
+          type="date"
+          id="dob"
+          name="dob"
+          required
+          placeholder="dd/mm/yy"
+        /><br /><br />
+        <label for="region">County:</label><br />
+        <select id="region" name="region" required>
+          <option value="">--Select your county--</option>
+          <option value="kiambu">Kiambu</option>
+          <option value="utawala">Utawala</option>
+          <option value="thika">Thika</option>
+          <option value="ruaka">Ruaka</option></select
+        ><br /><br />
+        <label>Gender:</label><br />
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" required />
+        <label for="female">Female</label><br /><br />
+
+        <label>Interests:</label><br />
+        <input type="checkbox" id="yoga" name="interests" value="yoga" />
+        <label for="yoga">Yoga</label><br />
+        <input type="checkbox" id="zumba" name="interests" value="zumba" />
+        <label for="zumba">Zumba</label><br />
+        <input type="checkbox" id="ptp" name="interests" value="ptp" />
+        <label for="ptp">Personal Training Programs</label><br /><br />
+        <input type="submit" value="Register" />
+      </form>
+    </main>
+
+    <footer>Welcome All</footer>
+  </body>
+</html>
